@@ -9,7 +9,6 @@ describe('text generation', () => {
     for (const d of ['ab', 'siemens'] as const) {
       const text = generateText(s.program, d);
       expect(text.split('// Rung').length + text.split('// Network').length - 2).toBe(s.program.rungs.length);
-      if (process.env.PRINT_TEXT) console.log(text);
     }
   });
 
