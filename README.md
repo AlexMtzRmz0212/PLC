@@ -27,7 +27,3 @@ npm test
 - `public/resume.pdf`: your resume (add it).
 - `src/plc/`: the engine (`scan.ts`), vendor naming (`dialects.ts`), ST/SCL generator (`textgen.ts`).
 - `src/ui/LadderView.tsx`: the ladder renderer for both vendor styles.
-
-## Publish
-
-`.github/workflows/deploy.yml` builds and deploys to GitHub Pages on every push to `main`. One-time setup: repo Settings, Pages, Source: GitHub Actions.
